@@ -9,7 +9,7 @@ function errorHandle(app) {
     app.use(function (err, req, res, next) {
       res.status(err.status || 500);
       res.render('error', {
-        pageTitle: "Error!",
+        pageTitle: 'Error!',
         message: err.message,
         error: err
       });
@@ -21,10 +21,10 @@ function errorHandle(app) {
   app.use(function (err, req, res, next) {
     res.status(err.status || 500);
     res.render('error', {
-      pageTitle: "Error!",
+      pageTitle: 'Error!',
       message: err.message,
       error: {}
     });
   });
 }
-module.exports = errorHandle
+module.exports = errorHandle;
