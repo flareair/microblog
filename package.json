@@ -1,7 +1,7 @@
 {
   "name": "Microblog",
   "version": "0.0.1",
-  "description": "Simple microblo on Express.js",
+  "description": "Simple microblog on Express.js",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
